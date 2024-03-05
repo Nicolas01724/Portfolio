@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    background-color: gray;
+    padding: 12px 24px;
+    background-image: url("https://s2-techtudo.glbimg.com/OJhj0r-MMFhHDv-_DDaJ13lorsg=/0x0:1440x750/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/5/G/PqxhlkTWSM2dTqABlcLA/breaking-bad.webp");
+    image-resolution: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+header * {
+    z-index: 10;
+    position: relative;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    font-weight: 300;
+    font-size: 22;
+}
+
+header ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header svg {
+    font-size: 10px;
+    width: 20px;
+}
+
+header .sombra {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    opacity: 0.5;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.resto {
+    display: flex;
+    gap: 20px;
+}
+
+.nome span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 300;
+    padding: 92px
+}
